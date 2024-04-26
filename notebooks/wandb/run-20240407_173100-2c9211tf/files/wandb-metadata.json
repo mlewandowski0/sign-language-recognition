@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-04-07T16:31:01.907254",
+    "startedAt": "2024-04-07T16:31:00.077336",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "notebooks/RGB_CNNs_cloud.ipynb",
+    "codePathLocal": null,
+    "root": "D:/PROJS/sign-language-recognition",
+    "git": {
+        "remote": "https://github.com/mlewandowski0/sign-language-recognition",
+        "commit": "59847eebfb04eee5efb5a225e462c971031e2a8f"
+    },
+    "email": "lewandowski.maciej1702@gmail.com",
+    "host": "LAPTOP-QKIQJ1VH",
+    "username": "mlewand",
+    "executable": "D:\\Anaconda\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2700.0,
+        "min": 0.0,
+        "max": 2700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2700.0,
+            "min": 0.0,
+            "max": 2700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 385.76464462280273,
+            "used": 373.95732498168945
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.711418151855469
+    }
+}

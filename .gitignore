@@ -5,6 +5,7 @@ __pycache__/
 
 # exclude data
 data/
+k/
 
 # C extensions
 *.so

@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-04-07T21:53:24.274438",
+    "startedAt": "2024-04-07T21:53:21.012338",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/AdeleneLSW15/dynamic-sign",
+        "commit": "f469f117a10e6aa5e889e7bafbec6c05a365bcfb"
+    },
+    "email": "lewandowski.maciej1702@gmail.com",
+    "root": "D:/PROJS/dynamic-sign",
+    "host": "LAPTOP-QKIQJ1VH",
+    "username": "mlewand",
+    "executable": "d:\\Anaconda\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2700.0,
+        "min": 0.0,
+        "max": 2700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2700.0,
+            "min": 0.0,
+            "max": 2700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 385.76464462280273,
+            "used": 375.8924674987793
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.711418151855469
+    }
+}

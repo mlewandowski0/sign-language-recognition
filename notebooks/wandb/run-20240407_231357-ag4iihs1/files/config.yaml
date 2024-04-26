@@ -1,0 +1,88 @@
+wandb_version: 1
+
+max_lr:
+  desc: null
+  value: 0.0001
+min_lr:
+  desc: null
+  value: 5.0e-05
+scheduler:
+  desc: null
+  value: cosineAnnealer
+epochs:
+  desc: null
+  value: 100
+T_max:
+  desc: null
+  value: 50
+train_size:
+  desc: null
+  value: 240
+val_size:
+  desc: null
+  value: 60
+unique_classes:
+  desc: null
+  value: 3
+video_length:
+  desc: null
+  value: 60
+features:
+  desc: null
+  value: all
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.5
+    cli_version: 0.16.5
+    framework: keras
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    start_time: 1712528037.0
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      3:
+      - 7
+      - 13
+      - 16
+      - 23
+      - 38
+      4: 3.11.5
+      5: 0.16.5
+      8:
+      - 1
+      - 2
+      - 3
+      - 5
+      13: windows-amd64
+    m:
+    - 1: epoch/epoch
+      6:
+      - 3
+    - 1: epoch/categorical_accuracy
+      5: 1
+      6:
+      - 1
+    - 1: epoch/loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/val_categorical_accuracy
+      5: 1
+      6:
+      - 1
+    - 1: epoch/val_loss
+      5: 1
+      6:
+      - 1

@@ -713,3 +713,163 @@ _wandb:
                 - name: tableKey
                   value: val_ROC_epoch=9_table
                 fields: []
+      train_ROC_epoch=10:
+        panel_type: Vega2
+        panel_config:
+          panelDefId: wandb/area-under-curve/v0
+          fieldSettings:
+            x: fpr
+            y: tpr
+            class: class
+          stringSettings:
+            title: ROC
+            x-axis-title: False positive rate
+            y-axis-title: True positive rate
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - name: runSets
+              args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - name: id
+                fields: []
+              - name: name
+                fields: []
+              - name: _defaultColorIndex
+                fields: []
+              - name: summaryTable
+                args:
+                - name: tableKey
+                  value: train_ROC_epoch=10_table
+                fields: []
+      val_ROC_epoch=10:
+        panel_type: Vega2
+        panel_config:
+          panelDefId: wandb/area-under-curve/v0
+          fieldSettings:
+            x: fpr
+            y: tpr
+            class: class
+          stringSettings:
+            title: ROC
+            x-axis-title: False positive rate
+            y-axis-title: True positive rate
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - name: runSets
+              args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - name: id
+                fields: []
+              - name: name
+                fields: []
+              - name: _defaultColorIndex
+                fields: []
+              - name: summaryTable
+                args:
+                - name: tableKey
+                  value: val_ROC_epoch=10_table
+                fields: []
+      train_ROC_epoch=11:
+        panel_type: Vega2
+        panel_config:
+          panelDefId: wandb/area-under-curve/v0
+          fieldSettings:
+            x: fpr
+            y: tpr
+            class: class
+          stringSettings:
+            title: ROC
+            x-axis-title: False positive rate
+            y-axis-title: True positive rate
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - name: runSets
+              args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - name: id
+                fields: []
+              - name: name
+                fields: []
+              - name: _defaultColorIndex
+                fields: []
+              - name: summaryTable
+                args:
+                - name: tableKey
+                  value: train_ROC_epoch=11_table
+                fields: []
+      val_ROC_epoch=11:
+        panel_type: Vega2
+        panel_config:
+          panelDefId: wandb/area-under-curve/v0
+          fieldSettings:
+            x: fpr
+            y: tpr
+            class: class
+          stringSettings:
+            title: ROC
+            x-axis-title: False positive rate
+            y-axis-title: True positive rate
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - name: runSets
+              args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - name: id
+                fields: []
+              - name: name
+                fields: []
+              - name: _defaultColorIndex
+                fields: []
+              - name: summaryTable
+                args:
+                - name: tableKey
+                  value: val_ROC_epoch=11_table
+                fields: []
+      train_ROC_epoch=12:
+        panel_type: Vega2
+        panel_config:
+          panelDefId: wandb/area-under-curve/v0
+          fieldSettings:
+            x: fpr
+            y: tpr
+            class: class
+          stringSettings:
+            title: ROC
+            x-axis-title: False positive rate
+            y-axis-title: True positive rate
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - name: runSets
+              args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - name: id
+                fields: []
+              - name: name
+                fields: []
+              - name: _defaultColorIndex
+                fields: []
+              - name: summaryTable
+                args:
+                - name: tableKey
+                  value: train_ROC_epoch=12_table
+                fields: []

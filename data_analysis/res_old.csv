@@ -1,0 +1,237 @@
+"Name","epoch/val_categorical_accuracy (Max)","epoch/categorical_accuracy (Max)","State","Notes","User","Tags","Created","Runtime","Sweep","T_max","epochs","features","max_lr","min_lr","scheduler","train_size","unique_classes","val_size","video_length","epoch/categorical_crossentropy","epoch/epoch","epoch/learning_rate","epoch/loss","epoch/val_categorical_crossentropy","epoch/val_loss"
+"AK-GRU256-LR-Dense256-gelu-cls=3","0.8433333039283752","0.9476470351219176","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb0642af690>","mlewand","","2024-04-23T17:07:22.000Z","401","","101","200","all","0.0001","0.00005","cosineAnnealer","1700","5","300","36","","199","0.000025072540665860288","0.2177327573299408","","0.8366770148277283"
+"AK-GRU128-LR-Dense256-gelu-cls=3","0.8433333039283752","0.9164705872535706","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb05cc7d6d0>","mlewand","","2024-04-23T17:00:37.000Z","402","","101","200","all","0.0001","0.00005","cosineAnnealer","1700","5","300","36","","199","0.000025072540665860288","0.3386785387992859","","0.7407079339027405"
+"AK-GRU64-LR-Dense256-gelu-cls=3","0.8100000023841858","0.8817647099494934","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb678317a50>","mlewand","","2024-04-23T16:53:09.000Z","444","","101","200","all","0.0001","0.00005","cosineAnnealer","1700","5","300","36","","199","0.000025072540665860288","0.3931351006031037","","0.732395589351654"
+"AK-GRU32-LR-Dense256-gelu-fs=15-cls=3","0.7733333110809326","0.8435294032096863","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb78c723f10>","mlewand","","2024-04-23T16:45:26.000Z","461","","101","200","all","0.0001","0.00005","cosineAnnealer","1700","5","300","36","","199","0.000025072540665860288","0.44864681363105774","","0.6152532696723938"
+"AK-LSTM256-LR-Dense128-gelu-fs=36-cls=5","0.8133333325386047","0.9976470470428468","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb79c7bb0d0>","mlewand","","2024-04-23T16:39:11.000Z","372","","101","200","all","0.0001","0.00005","cosineAnnealer","1700","5","300","36","","199","0.000025072540665860288","0.0709352195262909","","0.9913212060928344"
+"AK-LSTM128-LR-Dense256-fs=36-cls=5","0.8333333134651184","0.942941188812256","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb8143d5e10>","mlewand","","2024-04-23T16:32:22.000Z","407","","101","200","all","0.0001","0.00005","cosineAnnealer","1700","5","300","36","","199","0.000025072540665860288","0.23143769800662992","","0.6416832208633423"
+"AK-LSTM64-LR-Dense256-fs=36-cls=5","0.800000011920929","0.9111764430999756","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb8ffcd7c10>","mlewand","","2024-04-23T16:25:33.000Z","406","","101","200","all","0.0001","0.00005","cosineAnnealer","1700","5","300","36","","199","0.000025072540665860288","0.3142992854118347","","0.7270135283470154"
+"AK-LSTM32-LR-Dense256-fs=36-cls=5","0.8333333134651184","0.8817647099494934","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb902e70590>","mlewand","","2024-04-23T16:17:27.000Z","483","","101","200","all","0.0001","0.00005","cosineAnnealer","1700","5","300","36","","199","0.000025072540665860288","0.3929260373115539","","0.5087991952896118"
+"RK-LSTM16-LR-Dense256-fs=36-cls=5","0.7049999833106995","0.9993749856948853","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb714714f90>","mlewand","","2024-04-23T14:30:30.000Z","225","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7454959750175476","","1.263461709022522"
+"Transformer-embed=128-heads=2-ff=128-D=0.1-Dense=128-Dense=256-LipsEyesHandsPose_5k","0.7350000143051147","1","finished","Model summary : 
+<keras.src.engine.functional.Functional object at 0x7fb6f410e850>","mlewand","","2024-04-23T13:28:22.000Z","2819","","151","300","reduced-LipsEyesHandsPose","0.0003","0.00005","cosineAnnealer","1600","5","400","36","","299","0.00005010819950257428","0.6715395450592041","","1.1324739456176758"
+"Transformer-e=128-h=4-ff=256-D=0.1-Dense=128-LipsEyesHandsPose_5k","0.7300000190734863","0.9987499713897704","finished","Model summary : 
+<keras.src.engine.functional.Functional object at 0x7fb6046b0510>","mlewand","","2024-04-23T12:56:51.000Z","1888","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7015670537948608","","1.207836031913757"
+"RK-BGRU256-LR-Dense256-gelu-fs=36-cls=5","0.7450000047683716","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb6a0bb8650>","mlewand","","2024-04-23T12:24:10.000Z","1957","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7048951983451843","","1.1601099967956543"
+"RK-BGRU128-LR-Dense256-gelu-fs=36-cls=5","0.7350000143051147","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb6856755d0>","mlewand","","2024-04-23T11:51:41.000Z","1946","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7063243985176086","","1.1879372596740725"
+"RK-BGRU64-LR-Dense256-gelu-fs=36-cls=5","0.7325000166893005","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb686965910>","mlewand","","2024-04-23T11:19:00.000Z","1959","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7126398682594299","","1.224635362625122"
+"RK-BGRU32-LR-Dense256-gelu-fs=36-cls=5","0.7149999737739563","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb654542950>","mlewand","","2024-04-23T10:45:31.000Z","2006","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7240437865257263","","1.2538360357284546"
+"RK-BGRU16-LR-Dense256-gelu-fs=36-cls=5","0.7024999856948853","0.9993749856948853","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb664587890>","mlewand","","2024-04-23T10:12:26.000Z","1982","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7481438517570496","","1.2725602388381958"
+"RK-BLSTM256-LR-Dense256-gelu-fs=36-cls=5","0.7400000095367432","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb6bc35d990>","mlewand","","2024-04-23T09:40:43.000Z","1901","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7049766778945923","","1.200243353843689"
+"RK-BLSTM128-LR-Dense256-gelu-fs=36-cls=5","0.7250000238418579","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbdd4422790>","mlewand","","2024-04-23T09:08:22.000Z","1939","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.71543288230896","","1.2677035331726074"
+"RK-BLSTM64-LR-Dense256-gelu-fs=36-cls=5","0.7099999785423279","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb6a0bf59d0>","mlewand","","2024-04-23T08:36:23.000Z","1915","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7157634496688843","","1.2902706861495972"
+"RK-BLSTM32-LR-Dense256-gelu-fs=36-cls=5","0.6850000023841858","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb714117890>","mlewand","","2024-04-23T08:02:41.000Z","2006","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7096824049949646","","1.2891552448272705"
+"RK-BLSTM16-LR-Dense256-gelu-fs=36-cls=5","0.6924999952316284","0.9993749856948853","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbd102009d0>","mlewand","","2024-04-23T07:29:31.000Z","1987","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7217053174972534","","1.335370659828186"
+"RK-GRU512-LR-Dense256-gelu-fs=36-cls=5","0.7475000023841858","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fb7141bee10>","mlewand","","2024-04-23T06:58:26.000Z","1863","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7009469866752625","","1.1529282331466677"
+"RK-GRU256-LR-Dense256-gelu-fs=36-cls=5","0.7524999976158142","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbd58582450>","mlewand","","2024-04-23T06:27:03.000Z","1881","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7061941623687744","","1.1727383136749268"
+"RK-GRU128-LR-Dense256-gelu-fs=36-cls=5","0.7350000143051147","0.9987499713897704","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbd103b61d0>","mlewand","","2024-04-23T05:55:30.000Z","1891","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7183629870414734","","1.217030644416809"
+"RK-GRU64-LR-Dense256-gelu-fs=36-cls=5","0.7200000286102295","0.975624978542328","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbdd47f5e90>","mlewand","","2024-04-23T05:24:03.000Z","1882","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7606683373451233","","1.224997878074646"
+"RK-GRU32-LR-Dense256-gelu-fs=36-cls=5","0.7149999737739563","0.909375011920929","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbde47bfd50>","mlewand","","2024-04-23T04:52:21.000Z","1899","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.8584426045417786","","1.1755764484405518"
+"RK-GRU16-LR-Dense256-gelu-fs=36-cls=5","0.7250000238418579","0.8387500047683716","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbea836f890>","mlewand","","2024-04-23T04:19:53.000Z","1945","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.9353375434875488","","1.1209341287612915"
+"RK-LSTM512-LR-Dense256-fs=36-cls=5","0.737500011920929","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbe10760e50>","mlewand","","2024-04-23T03:49:17.000Z","1834","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.6816275119781494","","1.1728613376617432"
+"RK-LSTM256-LR-Dense256-fs=36-cls=5","0.762499988079071","1","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbf3f2e1650>","mlewand","","2024-04-23T03:18:20.000Z","1854","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.6885671019554138","","1.1456927061080933"
+"RK-LSTM128-LR-Dense256-fs=36-cls=5","0.7099999785423279","0.9993749856948853","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbea049b690>","mlewand","","2024-04-23T02:47:34.000Z","1844","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7009971141815186","","1.2474126815795898"
+"RK-LSTM64-LR-Dense256-fs=36-cls=5","0.7049999833106995","0.9918749928474426","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbe9027c9d0>","mlewand","","2024-04-23T02:15:52.000Z","1900","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.7265727519989014","","1.2710036039352417"
+"RK-LSTM32-LR-Dense256-fs=36-cls=5","0.7225000262260437","0.934374988079071","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbea0137090>","mlewand","","2024-04-23T01:43:46.000Z","1924","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.8277866244316101","","1.2081689834594729"
+"RK-LSTM16-LR-Dense256-fs=36-cls=5","0.6850000023841858","0.8412500023841858","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fbea0359090>","mlewand","","2024-04-23T01:11:41.000Z","1923","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","199","0.000025072540665860288","0.9395332932472228","","1.266178846359253"
+"RK-LSTM16-LR-Dense256-fs=15-cls=3","0.5274999737739563","0.6343749761581421","crashed","Model summary : 
+<Sequential name=sequential_5, built=True>","mlewand","","2024-04-23T00:47:45.000Z","1592","","101","200","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","1600","5","400","36","","28","","1.2351880073547363","","1.3125211000442505"
+"AK-GRU64-LR-Dense256-gelu-cls=5","0.8166666626930237","0.9823529124259948","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f62ba92cb10>","mlewand","","2024-04-22T21:03:51.000Z","378","","101","200","all","0.0001","0.00005","cosineAnnealer","1700","5","300","30","","199","0.000025072540665860288","0.1396152675151825","","0.8484285473823547"
+"AK-BGRU64-LR-Dense256-gelu-cls=5","0.8033333420753479","0.9923529624938964","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6262bd2790>","mlewand","","2024-04-22T20:54:40.000Z","487","","101","200","all","0.0001","0.00005","cosineAnnealer","1700","5","300","30","","199","0.000025072540665860288","0.11271794140338898","","0.8174622654914856"
+"AK-BGRU256-LR-Dense256-gelu-cls=13","0.6840000152587891","0.9637647271156312","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f623871b310>","mlewand","","2024-04-22T20:09:04.000Z","1377","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.29544296860694885","","1.2677463293075562"
+"AK-BGRU128-LR-Dense256-gelu-cls=13","0.6866666674613953","0.934823513031006","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f626292f350>","mlewand","","2024-04-22T19:50:29.000Z","1112","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.3566940426826477","","1.1573573350906372"
+"AK-BGRU64-LR-Dense256-gelu-cls=13","0.6986666917800903","0.8941176533699036","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f62901f3dd0>","mlewand","","2024-04-22T19:26:47.000Z","1419","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.4413819909095764","","1.03643798828125"
+"AK-BGRU32-LR-Dense256-gelu-cls=13","0.7026666402816772","0.8465882539749146","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6319231b10>","mlewand","","2024-04-22T19:05:02.000Z","1303","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.5615153312683105","","0.9381036758422852"
+"AK-BGRU16-LR-Dense256-gelu-cls=13","0.6773333549499512","0.783294141292572","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f62c0d25710>","mlewand","","2024-04-22T18:43:12.000Z","1307","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.7389729619026184","","0.9819716811180116"
+"AK-BLSTM256-LR-Dense256-gelu-cls=13","0.6453333497047424","0.9583529233932496","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6308956b90>","mlewand","","2024-04-22T18:23:43.000Z","1166","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.3089260756969452","","1.6028844118118286"
+"AK-BLSTM128-LR-Dense256-gelu-cls=13","0.6613333225250244","0.9263529181480408","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f631b9e90d0>","mlewand","","2024-04-22T18:01:22.000Z","1338","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.3719162344932556","","1.2880688905715942"
+"AK-BLSTM64-LR-Dense256-gelu-cls=13","0.690666675567627","0.8976470828056335","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f63096271d0>","mlewand","","2024-04-22T17:36:58.000Z","1461","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.4363222420215606","","1.16502583026886"
+"AK-BLSTM32-LR-Dense256-gelu-cls=13","0.6653333306312561","0.8465882539749146","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f63b1af4b10>","mlewand","","2024-04-22T17:15:11.000Z","1305","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.5567706227302551","","1.102463960647583"
+"AK-BLSTM16-LR-Dense256-gelu-cls=13","0.6613333225250244","0.7875294089317322","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f63a09474d0>","mlewand","","2024-04-22T16:50:28.000Z","1481","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.6881956458091736","","1.0872373580932615"
+"AK-GRU512-LR-Dense256-gelu-cls=13","0.6826666593551636","0.9164705872535706","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f63a01d3dd0>","mlewand","","2024-04-22T16:38:45.000Z","701","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.3571692407131195","","1.2884804010391235"
+"AK-GRU256-LR-Dense256-gelu-cls=13","0.7013333439826965","0.846823513507843","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f63a2591c50>","mlewand","","2024-04-22T16:26:14.000Z","748","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.5314469337463379","","1.1381447315216064"
+"AK-GRU128-LR-Dense256-gelu-cls=13","0.690666675567627","0.7842352986335754","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f63b0aae150>","mlewand","","2024-04-22T16:12:48.000Z","803","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.6925331354141235","","1.0809837579727173"
+"AK-GRU64-LR-Dense256-gelu-cls=13","0.6746666431427002","0.7115294337272644","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6994c00b10>","mlewand","","2024-04-22T15:59:32.000Z","793","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.8492687344551086","","0.9439719915390016"
+"AK-GRU32-LR-Dense256-gelu-fs=15-cls=13","0.5120000243186951","0.5437647104263306","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6b38261f90>","mlewand","","2024-04-22T15:47:43.000Z","707","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","1.2310508489608765","","1.3253228664398191"
+"AK-GRU16-LR-Dense256-gelu-fs=15-cls=13","0.46666666865348816","0.48988234996795654","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6a143c3e90>","mlewand","","2024-04-22T15:35:38.000Z","722","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","1.3702888488769531","","1.421299934387207"
+"AK-LSTM256-LR-Dense128-gelu-fs=15-cls=13","0.6453333497047424","0.9675294160842896","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6ae83f3dd0>","mlewand","","2024-04-22T15:23:59.000Z","696","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.2339135706424713","","1.7086496353149414"
+"AK-LSTM256-LR-Dense128-gelu-fs=15-cls=13","0.6586666703224182","0.9367058873176576","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6a3c59d190>","mlewand","","2024-04-22T15:12:49.000Z","668","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.32156622409820557","","1.4558875560760498"
+"AK-LSTM128-LR-Dense256-fs=15-cls=13","0.6746666431427002","0.8150588274002075","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6a686ad090>","mlewand","","2024-04-22T15:00:33.000Z","733","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.6191306114196777","","1.1147065162658691"
+"AK-LSTM64-LR-Dense256-fs=15-cls=13","0.6639999747276306","0.7463529706001282","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6a6868d090>","mlewand","","2024-04-22T14:47:50.000Z","761","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","0.7931079864501953","","1.0433192253112793"
+"AK-LSTM32-LR-Dense256-fs=15-cls=13","0.5440000295639038","0.5927059054374695","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6c5bf7b3d0>","mlewand","","2024-04-22T14:35:29.000Z","739","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","1.1416856050491333","","1.2552106380462646"
+"AK-LSTM16-LR-Dense256-fs=15-cls=13","0.5253333449363708","0.5383529663085938","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f6c5bf61710>","mlewand","","2024-04-22T14:23:10.000Z","736","","101","200","all","0.0001","0.00005","cosineAnnealer","4250","13","750","15","","199","0.000025072540665860288","1.263803482055664","","1.3459681272506714"
+"AK-BGRU256-LR-Dense256-gelu-cls=3","0.9200000166893004","0.9882352948188782","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f1f49e337d0>","mlewand","","2024-04-22T13:44:29.000Z","282","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.13434998691082","","0.3774558901786804"
+"AK-BGRU128-LR-Dense256-gelu-cls=3","0.9266666769981384","0.9788235425949096","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f1f481837d0>","mlewand","","2024-04-22T13:37:33.000Z","414","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.1541027873754501","","0.4537083506584167"
+"AK-BGRU64-LR-Dense256-gelu-cls=3","0.9266666769981384","0.9717646837234496","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f1f86792890>","mlewand","","2024-04-22T13:31:14.000Z","376","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.14294452965259552","","0.30595144629478455"
+"AK-BGRU32-LR-Dense256-gelu-cls=3","0.946666657924652","0.9682353138923644","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f1f84f1cfd0>","mlewand","","2024-04-22T13:23:37.000Z","454","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.18387305736541748","","0.3762030005455017"
+"AK-BGRU16-LR-Dense256-gelu-cls=3","0.9333333373069764","0.9588235020637512","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f1f9c9c9190>","mlewand","","2024-04-22T13:16:42.000Z","412","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.1575443595647812","","0.2871168553829193"
+"AK-BLSTM256-LR-Dense256-gelu-cls=3","0.9200000166893004","0.9835293889045716","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f1fbeeecad0>","mlewand","","2024-04-22T13:10:11.000Z","388","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.15214189887046814","","0.4192952513694763"
+"AK-BLSTM128-LR-Dense256-gelu-cls=3","0.9266666769981384","0.9800000190734864","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f1fbebf1b90>","mlewand","","2024-04-22T13:03:03.000Z","426","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.16646131873130798","","0.4273644089698791"
+"AK-BLSTM64-LR-Dense256-gelu-cls=3","0.9266666769981384","0.9764705896377563","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f1f9cab6c90>","mlewand","","2024-04-22T12:55:55.000Z","425","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.18169139325618744","","0.39415228366851807"
+"AK-BLSTM32-LR-Dense256-gelu-cls=3","0.9200000166893004","0.9670588374137878","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f1f48263e50>","mlewand","","2024-04-22T12:47:43.000Z","489","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.16424348950386047","","0.345035582780838"
+"AK-BLSTM16-LR-Dense256-gelu-cls=3","0.9266666769981384","0.9576470851898192","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f26701969d0>","mlewand","","2024-04-22T12:38:12.000Z","569","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.1887102574110031","","0.28287428617477417"
+"AK-GRU512-LR-Dense256-gelu-cls=3","0.9399999976158142","0.974117636680603","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f2045c9bdd0>","mlewand","","2024-04-22T12:35:08.000Z","181","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.19889697432518005","","0.5433072447776794"
+"AK-GRU256-LR-Dense256-gelu-cls=3","0.9333333373069764","0.963529407978058","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f2045473a90>","mlewand","","2024-04-22T12:31:22.000Z","223","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.19097039103507996","","0.29519200325012207"
+"AK-GRU128-LR-Dense256-gelu-cls=3","0.9333333373069764","0.9541176557540894","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f20451ca8d0>","mlewand","","2024-04-22T12:27:54.000Z","205","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.18962547183036804","","0.346067875623703"
+"AK-GRU64-LR-Dense256-gelu-cls=3","0.9399999976158142","0.9458823800086976","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f2045f6e450>","mlewand","","2024-04-22T12:23:58.000Z","233","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.2213391810655594","","0.34833118319511414"
+"AK-GRU32-LR-Dense256-gelu-fs=15-cls=3","0.946666657924652","0.9458823800086976","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f26701b4a90>","mlewand","","2024-04-22T12:19:52.000Z","244","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.19786688685417175","","0.3369823098182678"
+"AK-GRU16-LR-Dense256-gelu-fs=15-cls=3","0.9333333373069764","0.9247058629989624","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f2702ff4290>","mlewand","","2024-04-22T12:15:34.000Z","255","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.25144335627555847","","0.25351575016975403"
+"AK-LSTM256-LR-Dense128-gelu-fs=15-cls=3","0.9066666960716248","0.9835293889045716","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f26d0611290>","mlewand","","2024-04-22T12:11:54.000Z","217","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.15443935990333557","","0.4769596457481384"
+"AK-LSTM256-LR-Dense128-gelu-fs=15-cls=3","0.9333333373069764","0.977647066116333","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f26f47d1b90>","mlewand","","2024-04-22T12:08:28.000Z","204","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.16503632068634033","","0.38315001130104065"
+"AK-LSTM128-LR-Dense256-fs=15-cls=3","0.9200000166893004","0.959999978542328","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f2702f315d0>","mlewand","","2024-04-22T12:04:44.000Z","221","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.17318780720233917","","0.35968920588493347"
+"AK-LSTM64-LR-Dense256-fs=15-cls=3","0.9200000166893004","0.9505882263183594","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f28e14d1890>","mlewand","","2024-04-22T12:00:54.000Z","227","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.22971433401107788","","0.3709487318992615"
+"AK-LSTM32-LR-Dense256-fs=15-cls=3","0.9266666769981384","0.9364705681800842","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f28de4637d0>","mlewand","","2024-04-22T11:56:44.000Z","248","","101","200","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","199","0.000025072540665860288","0.20024317502975464","","0.3309284746646881"
+"AK-LSTM16-LR-Dense256-fs=15-cls=3","0.8866666555404663","0.8988234996795654","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fea68764350>","mlewand","","2024-04-22T11:47:23.000Z","211","","50","100","all","0.0001","0.00005","cosineAnnealer","850","3","150","15","","99","0.00009999999747378752","0.4056187868118286","","0.46936726570129395"
+"AK-LSTM32-LR-Dense256-gelu","0.9266666769981384","0.959999978542328","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f4434122290>","mlewand","","2024-04-22T01:24:47.000Z","174","","50","100","all","0.0001","0.00005","cosineAnnealer","850","3","150","20","","99","0.00009999999747378752","0.2761748433113098","","0.779446542263031"
+"AK-GRU32-LR-Dense256-gelu","0.9133333563804626","0.907058835029602","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f459c950390>","mlewand","","2024-04-22T01:19:49.000Z","122","","50","100","all","0.0001","0.00005","cosineAnnealer","850","3","150","20","","99","0.00009999999747378752","0.33689308166503906","","0.5194050669670105"
+"AK-LSTM256-LR-Dense128-gelu","0.9133333563804626","0.9647058844566344","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f4494741790>","mlewand","","2024-04-22T01:17:09.000Z","122","","50","100","all","0.0001","0.00005","cosineAnnealer","850","3","150","20","","99","0.00009999999747378752","0.17492438852787018","","0.47726553678512573"
+"AK-LSTM256-LR-Dense128-gelu","","","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f45971c8950>","mlewand","","2024-04-22T01:16:35.000Z","32","","50","100","all","0.0001","0.00005","cosineAnnealer","850","3","150","20","","","","","",""
+"AK-LSTM128-LR-Dense128-Dense256","0.8999999761581421","0.9376470446586608","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f4593e58d50>","mlewand","","2024-04-22T01:13:26.000Z","128","","50","100","all","0.0001","0.00005","cosineAnnealer","850","3","150","20","","99","0.00009999999747378752","0.2728075385093689","","0.3923797905445099"
+"LSTM128-DENSE128-DENSE256-allfeatures","0.9200000166893004","0.9477777481079102","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f704eaecd10>","mlewand","","2024-04-21T22:37:43.000Z","5076","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.3181813359260559","","0.38110724091529846"
+"LSTM128-Dense128-Dense256-LipsEyesHandsPose_5k","","","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f1076f7a410>","mlewand","","2024-04-21T22:31:37.000Z","5541","","51","100","reduced-LipsEyesHandsPose","0.0001","0.00005","cosineAnnealer","4000","13","1000","25","","","","","",""
+"LSTM256-LSTM64-LR-Dense128-GELU-Dense256-GELU-LipsEyesHandsPose_scaled_5k","0.38100001215934753","0.5115000009536743","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f107bf87310>","mlewand","","2024-04-21T22:23:24.000Z","490","","51","100","reduced-LipsEyesHandsPose-scaled","0.0001","0.00005","cosineAnnealer","4000","13","1000","25","","19","0.00008330887067131698","NaN","","NaN"
+"Transformer-embed=128-heads=2-ff=128-D=0.2-Dense=256-LipsEyesHandsPose_5k","0.5580000281333923","0.981249988079071","finished","Model summary : 
+<keras.src.engine.functional.Functional object at 0x7f945c48cb90>","mlewand","","2024-04-16T15:41:18.000Z","1954","","151","300","reduced-LipsEyesHandsPose","0.0003","0.00005","cosineAnnealer","4000","13","1000","25","","299","0.00005010819950257428","1.1057791709899902","","2.0757761001586914"
+"Transformer-embed=128-heads=2-ff=128-D=0.1-Dense=128-Dense=256-LipsEyesHandsPose_5k","0.5450000166893005","0.9882500171661376","finished","Model summary : 
+<keras.src.engine.functional.Functional object at 0x7f95cc312c90>","mlewand","","2024-04-16T15:04:01.000Z","2030","","151","300","reduced-LipsEyesHandsPose","0.0003","0.00005","cosineAnnealer","4000","13","1000","25","","299","0.00005010819950257428","1.0490680932998655","","2.017030715942383"
+"Transformer-embed=128-heads=2-ff=128-D=0.1-Dense=128-Dense=256-LipsEyesHandsPose_5k","0.20600000023841855","0.12099999934434892","finished","Model summary : 
+<keras.src.engine.functional.Functional object at 0x7f954fea9a50>","mlewand","","2024-04-16T15:02:34.000Z","84","","50","100","reduced-LipsEyesHandsPose","0.0001","0.00005","cosineAnnealer","4000","13","1000","25","","0","0.00009995066648116337","2.5330991744995117","","2.426353454589844"
+"Transformer-D=0.1-Dense=128-LipsEyesHandsPose_5k","0.5929999947547913","0.7452499866485596","finished","Model summary : 
+<keras.src.engine.functional.Functional object at 0x7f954c815890>","mlewand","","2024-04-16T14:40:54.000Z","733","","50","100","reduced-LipsEyesHandsPose","0.0001","0.00005","cosineAnnealer","4000","13","1000","25","","99","0.00009999999747378752","1.538276433944702","","1.833159565925598"
+"LSTM256-Dense128-Dense256-LipsEyesHandsPose_5k","","","finished","Model summary : 
+<keras.src.engine.functional.Functional object at 0x7f954ca53f10>","mlewand","","2024-04-16T14:40:29.000Z","22","","50","100","reduced-LipsEyesHandsPose","0.0001","0.00005","cosineAnnealer","4000","13","1000","25","","","","","",""
+"LSTM256-Dense128-Dense256-LipsEyesHandsPose_5k","","","finished","Model summary : 
+<keras.src.engine.functional.Functional object at 0x7f95007f5210>","mlewand","","2024-04-16T14:40:02.000Z","25","","50","100","reduced-LipsEyesHandsPose","0.0001","0.00005","cosineAnnealer","4000","13","1000","25","","","","","",""
+"LSTM64-Dense128-Dense256-LipsEyesHandsPose_5k","0.5210000276565552","0.6414999961853027","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f9e240a0050>","mlewand","","2024-04-16T14:21:43.000Z","616","","50","100","reduced-LipsEyesHandsPose","0.0001","0.00005","cosineAnnealer","4000","13","1000","25","","99","0.00009999999747378752","1.7232351303100586","","1.9353278875350952"
+"LSTM128-Dense128-Dense256-LipsEyesHandsPose_5k","0.5230000019073486","0.8867499828338623","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f9e5311af10>","mlewand","","2024-04-16T14:09:37.000Z","543","","50","100","reduced-LipsEyesHandsPose","0.0001","0.00005","cosineAnnealer","4000","13","1000","25","","99","0.00009999999747378752","1.391520857810974","","2.244415521621704"
+"LSTM128-Dense128-Dense256-LipsEyesHandsPose_5k","0.5640000104904175","0.8617500066757202","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f9e521caa10>","mlewand","","2024-04-16T13:55:58.000Z","816","","50","100","reduced-LipsEyesHandsPose","0.0001","0.00005","cosineAnnealer","4000","13","1000","25","","99","0.00009999999747378752","1.4173414707183838","","2.178098678588867"
+"LSTM64-Dense256-LipsEyesHandsPose","0.8399999737739563","0.8844444155693054","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f8241ed0bd0>","mlewand","","2024-04-10T20:40:36.000Z","2462","","75","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00008125000022118911","0.41213303804397583","","0.5371882319450378"
+"LSTM64-Dense128-LipsEyesHandsPose","0.8600000143051147","0.8766666650772095","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f8241d02a90>","mlewand","","2024-04-10T19:59:03.000Z","2491","","75","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00008125000022118911","0.4241698682308197","","0.5298067331314087"
+"LSTM64-Dense64-LipsEyesHandsPose_NF","0.8799999952316284","0.8766666650772095","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f822421d150>","mlewand","","2024-04-10T16:44:53.000Z","2501","","75","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00008125000022118911","0.4712527096271515","","0.507581353187561"
+"LSTM128-Dense128-Dense256-LipsEyesHandsPose","0.8700000047683716","0.904444456100464","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f83382d0c50>","mlewand","","2024-04-10T16:04:11.000Z","2440","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.3906112015247345","","0.528964102268219"
+"LSTM128_l2-Dense128-Dense256-LipsEyesHandsPose","0.8600000143051147","0.8877778053283691","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f830eb5ead0>","mlewand","","2024-04-10T15:13:31.000Z","2403","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.4922332167625427","","0.90103018283844"
+"LSTM128-Dense256-LipsEyesHandsPose","0.8700000047683716","0.8855555653572083","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f830c59cf10>","mlewand","","2024-04-10T14:32:15.000Z","2440","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.4643317759037018","","0.6158098578453064"
+"LSTM128-Dense256-LipsEyesHandsPose","0.8600000143051147","0.9122222065925598","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f8befd6c750>","mlewand","","2024-04-10T12:37:01.000Z","2452","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.5161699056625366","","0.6315892934799194"
+"LSTM256-Dense128-Dense256-LipsEyesHandsPose_NF=396","0.8600000143051147","0.8666666746139526","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f899c7f6290>","mlewand","","2024-04-10T11:50:01.000Z","2468","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.5415050983428955","","0.5602989196777344"
+"LSTM64-Dense128-Dense256-LipsEyesHandsPose","0.8700000047683716","0.9077777862548828","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f8d6fa07a90>","mlewand","","2024-04-10T10:39:54.000Z","2439","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.4616154730319977","","0.6631308794021606"
+"LSTM128-Dense128-Dense256-LipsEyesHandsPose","0.8700000047683716","0.898888885974884","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7f7ff556ea10>","mlewand","","2024-04-09T23:18:24.000Z","2429","","50","100","LipsEyesHandsPose","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.45091551542282104","","0.48608434200286865"
+"LSTM64-Dense257-allfeatures","0.9100000262260436","0.9322222471237184","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fd9e82e3790>","mlewand","","2024-04-08T15:43:10.000Z","5329","","75","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00008125000022118911","0.34328943490982056","","0.37229859828948975"
+"LSTM64-Dense128-allfeatures","0.9200000166893004","0.9233333468437196","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fda518a6390>","mlewand","","2024-04-08T14:13:17.000Z","5391","","75","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00008125000022118911","0.3411017954349518","","0.4558684527873993"
+"LSTM64-Dense64-allfeatures","0.8999999761581421","0.9277777671813964","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fda501c1d50>","mlewand","","2024-04-08T12:44:06.000Z","5349","","75","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00008125000022118911","0.3030488193035126","","0.7505279779434204"
+"LSTM128-Dense128-Dense256-allfeatures","0.9300000071525574","0.9544444680213928","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fdbbc5aa510>","mlewand","","2024-04-08T10:28:43.000Z","5345","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.29384833574295044","","0.638388454914093"
+"Bigger Reg: LSTM64-Dense128-Dense256-allfeatures","0.9100000262260436","0.8922222256660461","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fdb180a9010>","mlewand","","2024-04-08T08:59:08.000Z","5336","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.5047539472579956","","0.6695714592933655"
+"LSTM128-Dense128-allfeatures","0.8999999761581421","0.9444444179534912","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fdaec2da250>","mlewand","","2024-04-08T05:56:40.000Z","5070","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.22889015078544617","","0.438711017370224"
+"LSTM128-Dense256-allfeatures","0.9200000166893004","0.9322222471237184","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fdb4c07b8d0>","mlewand","","2024-04-08T04:31:44.000Z","5094","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.29756179451942444","","0.5839239358901978"
+"LSTM256-Dense128-Dense256-allfeatures","0.9100000262260436","0.9399999976158142","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fdbbc223250>","mlewand","","2024-04-08T03:03:41.000Z","5280","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.304427832365036","","0.6457535624504089"
+"Reg: LSTM64-Dense128-Dense256-allfeatures","0.9300000071525574","0.9266666769981384","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fe2a4725dd0>","mlewand","","2024-04-08T01:39:15.000Z","5064","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.32658636569976807","","0.3885423541069031"
+"LSTM128-Dense128-Dense256-allfeatures","0.9100000262260436","0.9244444370269777","finished","Model summary : 
+<keras.src.engine.sequential.Sequential object at 0x7fe2a47cff50>","mlewand","","2024-04-08T00:17:09.000Z","4924","","50","100","all","0.0001","0.00005","cosineAnnealer","900","3","100","60","","99","0.00009999999747378752","0.3245764970779419","","0.42385315895080566"
+"LSTM128-Dense128-Dense256-allfeatures","0.4333333373069763","0.4375","crashed","Model summary : 
+<Sequential name=sequential, built=True>","adelenelsw15","","2024-04-07T22:13:58.000Z","10559","","50","100","all","0.0001","0.00005","cosineAnnealer","240","3","60","60","","46","","15503.8759765625","","15981.5595703125"

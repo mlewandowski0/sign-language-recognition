@@ -1,2 +1,2 @@
-# sign-language-recognition
-recognizing sign language from videos
+# dynamic-sign
+Third year project - sign recognition
